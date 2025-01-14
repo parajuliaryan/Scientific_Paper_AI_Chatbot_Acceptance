@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.19)  14 JAN 2025 13:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.19)  14 JAN 2025 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -290,9 +290,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\97798\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Underfull \vbox (badness 4967) has occurred while \output is active []
-
-
 
 
 
@@ -300,59 +297,84 @@ Underfull \vbox (badness 4967) has occurred while \output is active []
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
  (C:\Users\97798\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
  (C:\Users\97798\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+Underfull \hbox (badness 3078) in paragraph at lines 48--64
+\OT1/ptm/m/n/10 non-anthropomorphic to eval-u-ate the pref-er-ence of the
+ []
 
-LaTeX Font Info:    Trying to load font information for OML+ptm on input line 86.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--64
+
+ []
+
+
+
+
+
+[2]
+Underfull \hbox (badness 1946) in paragraph at lines 103--104
+\OT1/ptm/m/n/10 with JASP (Jef-freys's Amaz-ing Statis-tics Pro-gram). We
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 103--104
+\OT1/ptm/m/n/10 used this par-tic-u-lar method be-cause the study aims to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 123.
 (C:\Users\97798\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlptm.fd
 File: omlptm.fd 
 )
 LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 86.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 123.
 
-
-[2]
-Underfull \hbox (badness 2119) in paragraph at lines 97--98
+Underfull \hbox (badness 2119) in paragraph at lines 134--135
 []\OT1/ptm/m/n/8 C. Pelau, D.-C. Dabija, and I. Ene, ``What makes an AI de-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 98--99
+Underfull \hbox (badness 1571) in paragraph at lines 135--136
 []\OT1/ptm/m/n/8 Y. Sun, X.-L. Shen, and K. Z. K. Zhang, ``Human-AI in-ter-ac-
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 99--100
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 136--137
 []\OT1/ptm/m/n/8 N. van Berkel, M. B. Skov, and J. Kjeld-skov, ``Human-AI in-
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 99--100
+Underfull \hbox (badness 7012) in paragraph at lines 136--137
 \OT1/ptm/m/n/8 28, no. 6, pp. 67{71, Nov.{Dec. 2021. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 []\OT1/ptm/m/n/8 J. W. Bonny and K. T. Wynne, ``In-creas-ing Human-
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 100--101
+Underfull \hbox (badness 4634) in paragraph at lines 137--138
 \OT1/ptm/m/n/8 Likeness and Ac-cep-tance of Con-ver-sa-tional Au-ton-omy through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 \OT1/ptm/m/n/8 Ex-pe-ri-ence,'' in *Proc. 2024 IEEE 4th Int. Conf. Human-
  []
-
-
 
 
 ** Conference Paper **
@@ -374,15 +396,15 @@ L3 programming layer <2024-09-10>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4271 strings out of 473899
- 67902 string characters out of 5726499
- 472171 words of memory out of 5000000
- 27100 multiletter control sequences out of 15000+600000
+ 4273 strings out of 473899
+ 67946 string characters out of 5726499
+ 475202 words of memory out of 5000000
+ 27102 multiletter control sequences out of 15000+600000
  595148 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,2086b,276s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Parajuli_Aryan_Draftpaper.pdf (3 pages, 102708 bytes).
+Output written on Parajuli_Aryan_Draftpaper.pdf (3 pages, 104523 bytes).
 PDF statistics:
  48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
