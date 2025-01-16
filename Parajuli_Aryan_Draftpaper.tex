@@ -120,9 +120,67 @@ The study examined the responses using statistical analysis with JASP (Jeffreys'
 	}
 \end{table}
 
-Table 3 shows the results of the independent samples t-test. We used Welch’s t-test because there are unequal variances between groups as indicated by the p-value \textless 0.05 from the Brown-Forsythe test for equality of variances. The t-value is 6.887 which indicates that there is a statistically significant difference between the two independent groups where the anthropomorphic group has a higher mean score. The degrees of freedom (df) is 141.685 which is fractional and indicates that Welch’s t-test was used to adjust the unequal variances. A larger df value indicates a reliable test and a good sample size. The p-value is extremely small (p\textless0.001) which shows a high statistical significance and a strong support towards our hypothesis. The probability that this result is obtained by chance is less likely (\textless 0.1\%).                 
+Table 4 shows the results of the independent samples t-test. We used Welch’s t-test because there are unequal variances between groups as indicated by the p-value \textless 0.05 from the Brown-Forsythe test for equality of variances. The t-value is 6.887 which indicates that there is a statistically significant difference between the two independent groups where the anthropomorphic group has a higher mean score. The degrees of freedom (df) is 141.685 which is fractional and indicates that Welch’s t-test was used to adjust the unequal variances. A larger df value indicates a reliable test and a good sample size. The p-value is extremely small (p\textless0.001) which shows a high statistical significance and a strong support towards our hypothesis. The probability that this result is obtained by chance is less likely (\textless 0.1\%).                 
 
-\section{Discussion}
+
+\begin{table}[h]
+    \centering
+    \caption{Independent Samples T-Test with Effect Size}
+    \label{tab:independentSamplesT-TestCohensD}
+    \resizebox{\linewidth}{!}{ % Adjust table width
+        \begin{tabular}{lrrrrr}
+            \toprule
+            $ $ & t & df & p & Cohen's d & SE Cohen's d \\
+            \cmidrule[0.2pt]{1-6}
+            anthropomorphic\_preference\_score & $6.887$ & $141.685$ & $<$ .001 & $0.899$ & $0.130$  \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+In addition to the independent samples t-test, we calculated the effect size through Cohen’s d which quantifies the effect size and provides insights into the practical significance of the results by determining the magnitude of the difference between the two groups. Table 5 shows that the Cohen’s d value for the anthropomorphic preference score was 0.899 which indicates a large effect size because an effect size of 0.8 or greater is considered to be large. This shows that the difference in mean preference score between anthropomorphic and non-anthropomorphic interaction style groups is noteworthy. The standard error of Cohen’s d was 0.130 which represents the precision of the estimated effect size. The combination of a significant t-test and a large Cohen's d value supports our hypothesis.
+
+\begin{table}[h]
+    \centering
+    \caption{Regression Coefficients Table}
+    \label{tab:regressionCoefficientsTable}
+    \resizebox{\linewidth}{!}{ % Adjust table width
+        \begin{tabular}{lrrrrr}
+            \toprule
+            Predictor & Unstandardized Coefficient & Standard Error & Standardized Coefficient & p-value \\
+            \cmidrule[0.2pt]{1-5}
+            Interaction Style & -0.436 & 0.063 & -0.374 & $<$ .001 \\
+            Age  & -0.135 & 0.056 & -0.135 & 0.015 \\
+            Education & 0.076  & 0.034 & 0.122  & 0.027 \\
+            \bottomrule
+        \end{tabular}
+    }
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \caption{Regression Model Summary Table}
+    \label{tab:regressionModelSummaryTable}
+        \begin{tabular}{lrrrrr}
+            \toprule
+            Metric & Value  \\
+            \cmidrule[0.4pt]{1-2}
+            $R^2$ & 0.209 \\
+            Adjusted $R^2$  & 0.192 \\
+            F-Statistic & 12.239\\
+            p-value & $<$ .001 \\
+            \bottomrule
+        \end{tabular}
+\end{table}
+
+\begin{figure}[h]
+    \includegraphics[width=\linewidth]{images/Q-Q Plots for residuals.jpg}
+    \caption{Q-Q Plots standardized residuals}
+    \label{q_qplots}    
+  \end{figure}
+
+  We performed a multiple regression analysis to investigate the influence of interaction styles and certain demographic variables on user acceptance. The adjusted \( R^2 \) value was 0.192 which indicates that the model significantly explained 19.2\% of the variance in user acceptance (\( F\text{-statistic} = 12.239, p < .001 \)) as shown in Table 7. Table 6 shows that the interaction style was highly significant with a \( p\text{-value} < 0.001 \) associating anthropomorphic interaction style with high user acceptance scores. Age and Education were significant predictors among the demographic variables where age negatively associated with user acceptance (\( p = 0.015 \)) which indicates that older participants showed slightly lower preference and education positively associated with user acceptance (\( p = 0.027 \)) which indicates that highly educated participants showed higher acceptance. Gender, Religion and Profession did not significantly impact user acceptance (\( p > 0.05 \)). The Figure 1 shows a Q-Q plot which confirmed that residuals followed a normal distribution which validated the assumptions of the regression model.
+  \section{Discussion}
  [Some placeholder text]
 
 \section{Conclusion}
