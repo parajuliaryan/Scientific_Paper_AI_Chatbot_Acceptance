@@ -2,6 +2,7 @@
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 \usepackage{cite}
+\usepackage{float}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
 \usepackage{graphicx}
@@ -23,7 +24,7 @@
 \maketitle
 
 \begin{abstract}
-	This study provides a comprehensive overview of different interaction styles of an AI chatbot and how it impacts the overall acceptance of AI by its users. It explores features like anthropomorphism and how it influences the user experience towards AI chatbots. The research explores the hypothesis that the AI chatbots having human-like or anthropomorphic responses are likely to be accepted. [Placeholder.....]
+	This study provides an overview of how AI Chatbot interaction styles, particularly anthropomorphic interaction style influences user acceptance. Previous studies have explored about the role of anthropomorphic or human-like AI Chatbot interaction to improve user engagement but its influence on user acceptance is underexplored. Through a survey of 300 participants, the study analyses user preference towards anthropomorphic or non-anthropomorphic interaction styles with statistical analysis of quantitative data using independent samples t-test, Cohen’s d and multiple regression analysis. The analysis supports our hypothesis that the users tend to show higher acceptance towards AI Chatbots with anthropomorphic interaction styles. Additionally, the findings suggest that the anthropomorphic interaction style positively influences user acceptance especially among the younger and highly educated demographic.   
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -62,7 +63,7 @@ The study used a wide range of survey data from 415 participants coming from div
 \end{table}
 \\
 
-Based on table 1, there were 180 male participants, 118 female participants and 2 diverse participants. Besides the gender difference, the major responses came from the people below the age of 30, with significantly fewer responses from those above the age of 30. The highest number of participants, 172 were from the IT or Technological sectors whereas the remaining were from other professional sectors.
+Based on table~\ref{tab:genderTest}, there were 180 male participants, 118 female participants and 2 diverse participants. Besides the gender difference, the major responses came from the people below the age of 30, with significantly fewer responses from those above the age of 30. The highest number of participants, 172 were from the IT or Technological sectors whereas the remaining were from other professional sectors.
 
 \begin{table}[ht]
     \centering
@@ -83,7 +84,7 @@ Based on table 1, there were 180 male participants, 118 female participants and 
 \end{table}
 
 
-Table 2 shows the distribution of participants based on their educational attainment, with the highest number of participants, 191 with a bachelor’s degree followed by 62 participants with a master’s degree. The lowest involvement is shown by PHD holders with a single participant. Apart from the difference in educational level, participants were from various religious backgrounds, with Hinduism on the top of the list with 103 participants, followed by Christianity with 77 participants whereas 32 participants did not follow any religion. This range of participants enables us to obtain a broad spectrum of user experiences which offers valuable insights into how AI chatbot interaction styles are perceived across different sociocultural backgrounds.
+Table~\ref{tab:educationalTest} shows the distribution of participants based on their educational attainment, with the highest number of participants, 191 with a bachelor’s degree followed by 62 participants with a master’s degree. The lowest involvement is shown by PHD holders with a single participant. Apart from the difference in educational level, participants were from various religious backgrounds, with Hinduism on the top of the list with 103 participants, followed by Christianity with 77 participants whereas 32 participants did not follow any religion. This range of participants enables us to obtain a broad spectrum of user experiences which offers valuable insights into how AI chatbot interaction styles are perceived across different sociocultural backgrounds.
 
 \begin{table}[ht]
     \centering
@@ -99,7 +100,7 @@ Table 2 shows the distribution of participants based on their educational attain
     \end{tabular}
 \end{table}
 
-We provided the participants with examples of anthropomorphic and non-anthropomorphic responses. As shown in table 3, 197 participants preferred the anthropomorphic response whereas 103 preferred the non-anthropomorphic response. Besides this, we also provided six quantitative questions to evaluate the likeliness of participants to prefer a specific type of response. Two questions were inclined towards non-anthropomorphic AI chatbots whereas four towards anthropomorphic AI chatbots. We then calculated the mean of the six questions as the anthropomorphic preference score. Reverse encoding for the non-anthropomorphic response questions was carried out to ensure that we received accurate average score. \par
+We provided the participants with examples of anthropomorphic and non-anthropomorphic responses. As shown in table~\ref{tab:anthropomorphicTest}, 197 participants preferred the anthropomorphic response whereas 103 preferred the non-anthropomorphic response. Besides this, we also provided six quantitative questions to evaluate the likeliness of participants to prefer a specific type of response. Two questions were inclined towards non-anthropomorphic AI chatbots whereas four towards anthropomorphic AI chatbots. We then calculated the mean of the six questions as the anthropomorphic preference score. Reverse encoding for the non-anthropomorphic response questions was carried out to ensure that we received accurate average score. \par
 The study examined the responses using statistical analysis with JASP (Jeffreys's Amazing Statistics Program). We used analytical methods like the independent samples t-test, emphasizing on the preference of anthropomorphism. We used this particular method because the study aims to compare the anthropomorphic preference score which is the mean value of two independent sample groups where the first group prefers the anthropomorphic response while the second group prefers the non-anthropomorphic response. The data used as the measure for the independent variable is categorical or non-numeric with two levels; anthropomorphic and non-anthropomorphic, whereas the data used as the measure for the dependent variable is the anthropomorphic preference score which is continuous or numerical; derived as the average from the interval scale responses. \\
 
 \section{Results}
@@ -120,7 +121,7 @@ The study examined the responses using statistical analysis with JASP (Jeffreys'
 	}
 \end{table}
 
-Table 4 shows the results of the independent samples t-test. We used Welch’s t-test due to unequal variances between groups, as indicated by the p-value \textless 0.05 from the Brown-Forsythe test for equality of variances. The t-value is 6.887, with degrees of freedom (df) of 141.685. The p-value is \textless 0.001.               
+Table~\ref{tab:independentSamplesT-Test} shows the results of the independent samples t-test. We used Welch’s t-test due to unequal variances between groups, as indicated by the p-value \textless 0.05 from the Brown-Forsythe test for equality of variances. The t-value is 6.887, with degrees of freedom (df) of 141.685. The p-value is \textless 0.001.               
 
 \begin{table}[h]
     \centering
@@ -137,7 +138,7 @@ Table 4 shows the results of the independent samples t-test. We used Welch’s t
     }
 \end{table}
 
-In addition to the independent samples t-test, we calculated the effect size using Cohen’s d. Table 5 shows that Cohen’s d value for the anthropomorphic preference score was 0.899. The standard error of Cohen’s d was 0.130.
+In addition to the independent samples t-test, we calculated the effect size using Cohen’s d. Table~\ref{tab:independentSamplesT-TestCohensD} shows that Cohen’s d value for the anthropomorphic preference score was 0.899. The standard error of Cohen’s d was 0.130.
 
 \begin{table}[h]
     \centering
@@ -156,7 +157,7 @@ In addition to the independent samples t-test, we calculated the effect size usi
     }
 \end{table}
 
-\begin{table}[h]
+\begin{table}[H]
     \centering
     \caption{Regression Model Summary Table}
     \label{tab:regressionModelSummaryTable}
@@ -172,7 +173,7 @@ In addition to the independent samples t-test, we calculated the effect size usi
         \end{tabular}
 \end{table}
 
-\begin{figure}[h]
+\begin{figure}[ht]
     \centering
     \includegraphics[width=\linewidth]{images/Q-Q Plots for residuals.jpg}
     \caption{Q-Q Plots standardized residuals}
