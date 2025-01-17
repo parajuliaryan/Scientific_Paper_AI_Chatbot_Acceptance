@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.19)  17 JAN 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.19)  17 JAN 2025 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -363,41 +363,41 @@ Package pdftex.def Info: images/Q-Q Plots for residuals.jpg  used on input line 
 
 
 [3 <./images/Q-Q Plots for residuals.jpg>]
-Underfull \hbox (badness 2119) in paragraph at lines 197--198
+Underfull \hbox (badness 2119) in paragraph at lines 199--200
 []\OT1/ptm/m/n/8 C. Pelau, D.-C. Dabija, and I. Ene, ``What makes an AI de-
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 198--199
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 200--201
 []\OT1/ptm/m/n/8 Y. Sun, X.-L. Shen, and K. Z. K. Zhang, ``Human-AI in-ter-ac-
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 199--200
+Underfull \hbox (badness 1755) in paragraph at lines 201--202
 []\OT1/ptm/m/n/8 N. van Berkel, M. B. Skov, and J. Kjeld-skov, ``Human-AI in-
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 199--200
+Underfull \hbox (badness 7012) in paragraph at lines 201--202
 \OT1/ptm/m/n/8 28, no. 6, pp. 67{71, Nov.{Dec. 2021. [On-line]. Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 []\OT1/ptm/m/n/8 J. W. Bonny and K. T. Wynne, ``In-creas-ing Human-
  []
 
 
-Underfull \hbox (badness 4634) in paragraph at lines 200--201
+Underfull \hbox (badness 4634) in paragraph at lines 202--203
 \OT1/ptm/m/n/8 Likeness and Ac-cep-tance of Con-ver-sa-tional Au-ton-omy through
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 \OT1/ptm/m/n/8 Ex-pe-ri-ence,'' in *Proc. 2024 IEEE 4th Int. Conf. Human-
  []
-
-
 
 
 ** Conference Paper **
@@ -421,13 +421,13 @@ L3 programming layer <2024-09-10>
 Here is how much of TeX's memory you used:
  4364 strings out of 473899
  69600 string characters out of 5726499
- 475685 words of memory out of 5000000
+ 477715 words of memory out of 5000000
  27189 multiletter control sequences out of 15000+600000
  596202 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,2086b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/97798/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Parajuli_Aryan_Draftpaper.pdf (4 pages, 159874 bytes).
+Output written on Parajuli_Aryan_Draftpaper.pdf (4 pages, 160553 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
