@@ -1,4 +1,4 @@
-# 📚 Research Paper: The Influence of AI Chatbot Interaction Styles on User Acceptance
+# 📚 The Influence of AI Chatbot Interaction Styles on User Acceptance
 
 This research paper was written for the **Scientific Methods and Writing** module as part of my Master's program. It explores the impact of different interaction styles of **AI chatbots** on **user acceptance**, addressing a critical topic in **human-computer interaction**. 🤖💬
 
